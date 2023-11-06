@@ -1,0 +1,948 @@
+{
+  "stages":[
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 0
+        },
+        {
+          "id": 3,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 0
+        },
+        {
+          "id": 4,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 0
+        },
+        {
+          "id": 6,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 0
+        },
+        {
+          "id": 7,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 0
+        },
+        {
+          "id": 10,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 6,
+          "star": 0
+        },
+        {
+          "id": 10,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 0
+        },
+        {
+          "id": 12,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 0
+        },
+        {
+          "id": 11,
+          "star": 0
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 0
+        },
+        {
+          "id": 6,
+          "star": 0
+        },
+        {
+          "id": 10,
+          "star": 0
+        }
+      ],
+      "bosses":[
+        {
+          "id": 1,
+          "star": 1
+        }
+      ],
+      "storyNum": 1
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 1
+        },
+        {
+          "id": 2,
+          "star": 1
+        },
+        {
+          "id": 4,
+          "star": 1
+        },
+        {
+          "id": 11,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 1
+        },
+        {
+          "id": 4,
+          "star": 1
+        },
+        {
+          "id": 6,
+          "star": 1
+        },
+        {
+          "id": 7,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 1
+        },
+        {
+          "id": 6,
+          "star": 1
+        },
+        {
+          "id": 9,
+          "star": 1
+        },
+        {
+          "id": 11,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 1
+        },
+        {
+          "id": 5,
+          "star": 1
+        },
+        {
+          "id": 9,
+          "star": 1
+        },
+        {
+          "id": 12,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 1
+        },
+        {
+          "id": 8,
+          "star": 1
+        },
+        {
+          "id": 5,
+          "star": 1
+        },
+        {
+          "id": 11,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 1
+        },
+        {
+          "id": 10,
+          "star": 1
+        },
+        {
+          "id": 11,
+          "star": 1
+        },
+        {
+          "id": 12,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 1
+        },
+        {
+          "id": 2,
+          "star": 1
+        },
+        {
+          "id": 11,
+          "star": 1
+        },
+        {
+          "id": 10,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 7,
+          "star": 1
+        },
+        {
+          "id": 9,
+          "star": 1
+        },
+        {
+          "id": 8,
+          "star": 1
+        },
+        {
+          "id": 10,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 1
+        },
+        {
+          "id": 3,
+          "star": 1
+        },
+        {
+          "id": 1,
+          "star": 1
+        },
+        {
+          "id": 6,
+          "star": 1
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 1
+        },
+        {
+          "id": 7,
+          "star": 1
+        },
+        {
+          "id": 10,
+          "star": 1
+        }
+      ],
+      "bosses":[
+        {
+          "id": 2,
+          "star": 2
+        }
+      ],
+      "storyNum": 2
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 2
+        },
+        {
+          "id": 2,
+          "star": 2
+        },
+        {
+          "id": 1,
+          "star": 2
+        },
+        {
+          "id": 9,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 2
+        },
+        {
+          "id": 4,
+          "star": 2
+        },
+        {
+          "id": 6,
+          "star": 2
+        },
+        {
+          "id": 9,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 2
+        },
+        {
+          "id": 6,
+          "star": 2
+        },
+        {
+          "id": 9,
+          "star": 2
+        },
+        {
+          "id": 11,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 2
+        },
+        {
+          "id": 6,
+          "star": 2
+        },
+        {
+          "id": 8,
+          "star": 2
+        },
+        {
+          "id": 12,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 2
+        },
+        {
+          "id": 4,
+          "star": 2
+        },
+        {
+          "id": 6,
+          "star": 2
+        },
+        {
+          "id": 9,
+          "star": 2
+        },
+        {
+          "id": 12,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 2
+        },
+        {
+          "id": 5,
+          "star": 2
+        },
+        {
+          "id": 9,
+          "star": 2
+        },
+        {
+          "id": 8,
+          "star": 2
+        },
+        {
+          "id": 10,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 2
+        },
+        {
+          "id": 5,
+          "star": 2
+        },
+        {
+          "id": 7,
+          "star": 2
+        },
+        {
+          "id": 10,
+          "star": 2
+        },
+        {
+          "id": 12,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 2
+        },
+        {
+          "id": 2,
+          "star": 2
+        },
+        {
+          "id": 3,
+          "star": 2
+        },
+        {
+          "id": 10,
+          "star": 2
+        },
+        {
+          "id": 12,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 2
+        },
+        {
+          "id": 11,
+          "star": 2
+        },
+        {
+          "id": 6,
+          "star": 2
+        },
+        {
+          "id": 9,
+          "star": 2
+        },
+        {
+          "id": 10,
+          "star": 2
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 2
+        },
+        {
+          "id": 10,
+          "star": 2
+        },
+        {
+          "id": 1,
+          "star": 2
+        },
+        {
+          "id": 6,
+          "star": 2
+        }
+      ],
+      "bosses":[
+        {
+          "id": 3,
+          "star": 3
+        }
+      ],
+      "storyNum": 3
+    },
+    {
+      "monsters":[
+        {
+          "id": 7,
+          "star": 3
+        },
+        {
+          "id": 8,
+          "star": 3
+        },
+        {
+          "id": 9,
+          "star": 3
+        },
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 10,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 6,
+          "star": 3
+        },
+        {
+          "id": 8,
+          "star": 3
+        },
+        {
+          "id": 9,
+          "star": 3
+        },
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 12,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 3
+        },
+        {
+          "id": 4,
+          "star": 3
+        },
+        {
+          "id": 6,
+          "star": 3
+        },
+        {
+          "id": 9,
+          "star": 3
+        },
+        {
+          "id": 12,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 5,
+          "star": 3
+        },
+        {
+          "id": 6,
+          "star": 3
+        },
+        {
+          "id": 9,
+          "star": 3
+        },
+        {
+          "id": 10,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 5,
+          "star": 3
+        },
+        {
+          "id": 4,
+          "star": 3
+        },
+        {
+          "id": 6,
+          "star": 3
+        },
+        {
+          "id": 10,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 3
+        },
+        {
+          "id": 5,
+          "star": 3
+        },
+        {
+          "id": 6,
+          "star": 3
+        },
+        {
+          "id": 8,
+          "star": 3
+        },
+        {
+          "id": 11,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 2,
+          "star": 3
+        },
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 5,
+          "star": 3
+        },
+        {
+          "id": 8,
+          "star": 3
+        },
+        {
+          "id": 10,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 3
+        },
+        {
+          "id": 10,
+          "star": 3
+        },
+        {
+          "id": 11,
+          "star": 3
+        },
+        {
+          "id": 12,
+          "star": 3
+        },
+        {
+          "id": 6,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 3
+        },
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 9,
+          "star": 3
+        },
+        {
+          "id": 12,
+          "star": 3
+        },
+        {
+          "id": 10,
+          "star": 3
+        }
+      ],
+      "bosses":[
+
+      ],
+      "storyNum": 0
+    },
+    {
+      "monsters":[
+        {
+          "id": 1,
+          "star": 3
+        },
+        {
+          "id": 3,
+          "star": 3
+        },
+        {
+          "id": 7,
+          "star": 3
+        },
+        {
+          "id": 5,
+          "star": 3
+        }
+      ],
+      "bosses":[
+        {
+          "id": 4,
+          "star": 4
+        }
+      ],
+      "storyNum": 4
+    }
+  ]
+} 

@@ -1,0 +1,64 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "하루",
+      "description": "하루는 전쟁에 끌려온 평범한 마족이다. 그중 전사를 맡고 있다.",
+      "job": "마족",
+      "str": 30,
+      "strInc": 3,
+      "hp": 500,
+      "hpInc": 50,
+      "gauge": 2,
+      "gaugeInc": 0,
+      "ultimateSkill": 3,
+      "uniqueAttack": 1,
+      "attack": 1
+    },
+    {
+      "id": 2,
+      "name": "아슐린",
+      "description": "아슐린은 전쟁에 직접 참여한 마법사 마족이다. 그녀는 전쟁을 좋아한다.",
+      "job": "마족",
+      "str": 35,
+      "strInc": 5,
+      "hp": 300,
+      "hpInc": 25,
+      "gauge": 5,
+      "gaugeInc": 0,
+      "ultimateSkill": 6,
+      "uniqueAttack": 6,
+      "attack": 2
+    },
+    {
+      "id": 3,
+      "name": "카슬러",
+      "description": "암살자 마족인 그는 마왕을 암살하려다 들켜 전쟁에 끌려오게 되었습니다.",
+      "job": "마족",
+      "str": 45,
+      "strInc": 5,
+      "hp": 250,
+      "hpInc": 25,
+      "gauge": 7,
+      "gaugeInc": 0,
+      "ultimateSkill": 8,
+      "uniqueAttack": 9,
+      "attack": 3
+    },
+    {
+      "id": 4,
+      "name": "사이키",
+      "description": "그녀는 마족의 사제로 심판자의 역할을 맡고 있다.",
+      "job": "마족",
+      "str": 30,
+      "strInc": 3,
+      "hp": 250,
+      "hpInc": 25,
+      "gauge": 5,
+      "gaugeInc": 0,
+      "ultimateSkill": 11,
+      "uniqueAttack": 10,
+      "attack": 4
+    }
+  ]
+} 
