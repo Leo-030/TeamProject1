@@ -558,8 +558,7 @@ public class ActionManager
 	public void UniqueAttack10(FightChar from, FightChar to)
 	{
 		from.HealOrBufMotion(to);
-		int amount = to.Heal(to.MaxHp * 20 / 100);
-		PrintLog($"{to.LogName}의 체력이 {amount}만큼 회복되었습니다.", true);
+		FightManagers.Instance.HealPercent(20, to, true);
 		PrintLog($"{from.LogName}이/가 {to.LogName}에게 {FindUniqueAttackName(10)}을 사용하였습니다.", false);
 	}
 

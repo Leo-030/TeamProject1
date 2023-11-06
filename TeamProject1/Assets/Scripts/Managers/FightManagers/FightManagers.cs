@@ -449,6 +449,48 @@ public class FightManagers : MonoBehaviour
 		}
 	}
 
+	public void DamageGroup(int damage, int damage2, FightChar to)
+	{
+		Damage(damage, to, false);
+		List<FightChar> list;
+		if (to.IsPlayer)
+		{
+			list = _chars;
+		}
+		else
+		{
+			list = _monsters;
+		}
+
+		int index = -2;
+		for (int i = 0; i < list.Count; i++)
+		{
+			if (list[i] == to)
+			{
+				index = i;
+				break;
+			}
+		}
+
+		if (index - 1 >= 0 && index + 1 < list.Count)
+		{
+			Damage(damage2, list[index - 1], false);
+			Damage(damage2, list[index + 1], true);
+		}
+		else if (index - 1 >= 0)
+		{
+			Damage(damage2, list[index - 1], true);
+		}
+		else if (index + 1 < list.Count)
+		{
+			Damage(damage2, list[index + 1], true);
+		}
+		else
+		{
+			ActionMg.PrintLog($"{to.LogName}의 양옆에 아무도 없어 피해를 주지 못하였습니다.", true);
+		}
+	}
+
 	public void DamageAll(int damage, bool isPlayer)
 	{
 		if (isPlayer)
@@ -515,6 +557,13 @@ public class FightManagers : MonoBehaviour
 		}
 	}
 
+	public void HealPercent(int healPercent, FightChar to, bool isLast = true)
+	{
+		int amount = to.Heal(to.MaxHp * healPercent / 100);
+		ActionMg.PrintLog($"{to.LogName}의 체력이 {amount}만큼 회복되었습니다.", isLast);
+		to.OnUpdateHp();
+	}
+
 	public void HealPercentAll(int healPercent, bool isPlayer)
 	{
 		if (isPlayer)
@@ -522,9 +571,7 @@ public class FightManagers : MonoBehaviour
 			for (int i = 0; i < _chars.Count; i++)
 			{
 				FightChar c = _chars[i];
-				int amount = c.Heal(c.MaxHp * healPercent / 100);
-				ActionMg.PrintLog($"{c.LogName}의 체력이 {amount}만큼 회복되었습니다.", (i == 0));
-				c.OnUpdateHp();
+				HealPercent(healPercent, c, (i == 0));
 			}
 		}
 		else
@@ -532,9 +579,7 @@ public class FightManagers : MonoBehaviour
 			for (int i = 0; i < _monsters.Count; i++)
 			{
 				FightChar c = _monsters[i];
-				int amount = c.Heal(c.MaxHp * healPercent / 100);
-				ActionMg.PrintLog($"{c.LogName}의 체력이 {amount}만큼 회복되었습니다.", (i == 0));
-				c.OnUpdateHp();
+				HealPercent(healPercent, c, (i == 0));
 			}
 		}
 	}
@@ -556,48 +601,6 @@ public class FightManagers : MonoBehaviour
 				FightChar c = _chars[i];
 				c.IncBuf(turn, c.OStr * strIncPercent / 100);
 			}
-		}
-	}
-
-	public void DamageGroup(int damage, int damage2, FightChar to)
-	{
-		Damage(damage, to, false);
-		List<FightChar> list;
-		if (to.IsPlayer)
-		{
-			list = _chars;
-		}
-		else
-		{
-			list = _monsters;
-		}
-
-		int index = -2;
-		for (int i = 0; i < list.Count; i++)
-		{
-			if (list[i] == to)
-			{
-				index = i;
-				break;
-			}
-		}
-
-		if (index - 1 >= 0 && index + 1 < list.Count)
-		{
-			Damage(damage2, list[index - 1], false);
-			Damage(damage2, list[index + 1], true);
-		}
-		else if (index - 1 >= 0)
-		{
-			Damage(damage2, list[index - 1], true);
-		}
-		else if (index + 1 < list.Count)
-		{
-			Damage(damage2, list[index + 1], true);
-		}
-		else
-		{
-			ActionMg.PrintLog($"{to.LogName}의 양옆에 아무도 없어 피해를 주지 못하였습니다.", true);
 		}
 	}
 
