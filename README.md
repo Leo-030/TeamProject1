@@ -10,20 +10,19 @@ Unity 2022.3.8f1
 
 ## Directory
 
-보고서
-
+- 보고서
 1. 제안서
 2. 개념설계보고서
 3. 상세설계진행보고서
 4. 최종보고서
 
-TeamProject1
+- TeamProject1
 
-실제 Unity 프로젝트
+  실제 Unity 프로젝트
 
-Build.zip
+- Build.zip
 
-빌드 파일 존재
+  빌드 파일 존재
 
 ## 게임 실행하는 방법
 
