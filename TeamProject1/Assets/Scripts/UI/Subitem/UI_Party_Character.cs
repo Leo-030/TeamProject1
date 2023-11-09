@@ -56,7 +56,7 @@ public class UI_Party_Character : UI_Base
 
 	public void OnUpdate()
 	{
-		Get<Image>((int)Images.Image).sprite = Managers.Resource.Load<Sprite>($"Images/Characters/{_havecharacter.character.id}/Collection");
+		Get<Image>((int)Images.Image).sprite = Managers.Resource.Load<Sprite>($"Images/Characters/{_havecharacter.character.id}/Original");
 		Get<TextMeshProUGUI>((int)Texts.NameText).text = _havecharacter.character.name;
 		Get<TextMeshProUGUI>((int)Texts.StarText).text = _havecharacter.star.ToString();
 	}

@@ -37,7 +37,7 @@ public class UI_Defeat : UI_Popup
 	public void OnExitButtonClicked(PointerEventData data)
 	{
 		ClosePopupUI();
-		Managers.Scene.LoadScene(Define.Scene.Lobby);
 		Managers.Resource.Destroy(FightManagers.Instance.gameObject);
+		Managers.Scene.LoadScene(Define.Scene.Lobby);
 	}
 }

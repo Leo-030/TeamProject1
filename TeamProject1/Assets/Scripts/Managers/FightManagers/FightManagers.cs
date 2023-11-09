@@ -332,7 +332,6 @@ public class FightManagers : MonoBehaviour
 				}
 			}
 			_buffer.Die(c);
-			//EndGame();
 			return true;
 		}
 		return false;
@@ -446,6 +445,7 @@ public class FightManagers : MonoBehaviour
 			{
 				ActionMg.PrintLog($"{list[id].LogName}이/가 방어하였습니다.", true);
 			}
+			ActionMg.PrintLog($"{list[id].LogName}이/가 도발을 통해 {fightChar.LogName} 대신 공격을 받았습니다.", false);
 		}
 	}
 

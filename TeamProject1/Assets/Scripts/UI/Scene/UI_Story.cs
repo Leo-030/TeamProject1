@@ -77,6 +77,7 @@ public class UI_Story : UI_Scene
 		count++;
 		if (storyText == null)
 		{
+			Managers.Resource.Destroy(StoryManager.Instance.gameObject);
 			Managers.Scene.LoadScene(Define.Scene.Lobby);
 		}
 		else if (storyText.Count > count)
@@ -85,6 +86,7 @@ public class UI_Story : UI_Scene
 		}
 		else if (storyText.Count <= count)
 		{
+			Managers.Resource.Destroy(StoryManager.Instance.gameObject);
 			Managers.Scene.LoadScene(Define.Scene.Lobby);
 		}
 	}
