@@ -60,7 +60,7 @@ public class UI_Lobby : UI_Scene
 
 	public void OnTutorialButtonClicked(PointerEventData data)
 	{
-
+		Managers.Scene.LoadScene(Define.Scene.Tutorial);
 	}
 
 	public void OnMenuButtonClicked(PointerEventData data)
