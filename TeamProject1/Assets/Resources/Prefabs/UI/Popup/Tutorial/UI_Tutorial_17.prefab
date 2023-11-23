@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uACE0\uC720\uB2A5\uB825:\n~~~"
+  m_text: "\uACE0\uC720\uB2A5\uB825:\n\uD29C\uD1A0\uB9AC\uC5BC: \uC124\uBA85"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
   m_sharedMaterial: {fileID: 3287333393956822313, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
@@ -1174,7 +1174,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC0AC\uC774\uD0A4\uB2E4\uC774\uB294 \uC0AC\uC774\uD0A4\uB2E4\uC774\uC785\uB2C8\uB2E4."
+  m_text: "\uD29C\uD1A0\uB9AC\uC5BC\uC6A9 \uC785\uB2C8\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
   m_sharedMaterial: {fileID: 3287333393956822313, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 976c6722b9c5d07469b6959d6f4ff0d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1383,7 +1383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC5BC\uD2F0\uBC0B \uC2A4\uD0AC:\n~~~"
+  m_text: "\uC5BC\uD2F0\uBC0B \uC2A4\uD0AC:\n\uD29C\uD1A0\uB9AC\uC5BC: \uC124\uBA85"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
   m_sharedMaterial: {fileID: 3287333393956822313, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
@@ -1785,7 +1785,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC9C1\uC5C5: \uB9C8\uBC95\uC0AC"
+  m_text: "\uC9C1\uC5C5: \uD29C\uD1A0\uB9AC\uC5BC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
   m_sharedMaterial: {fileID: 3287333393956822313, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
@@ -2096,7 +2096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uACF5\uACA9:\n~~~"
+  m_text: "\uACF5\uACA9:\n\uD29C\uD1A0\uB9AC\uC5BC: \uC124\uBA85"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
   m_sharedMaterial: {fileID: 3287333393956822313, guid: 1a698ac462876534583031d3db79a0e4, type: 2}
