@@ -30,6 +30,9 @@ Unity 2022.3.8f1
 2. 압축해제
 3. 소환사 이안의 대모험.exe 실행
 
+## 게임 설문조사
+https://forms.gle/smTvsBdrzBquVaQ27
+
 ## Credits
 
 Start Scene Bgm
