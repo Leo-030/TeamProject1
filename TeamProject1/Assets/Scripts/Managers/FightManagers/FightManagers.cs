@@ -451,7 +451,6 @@ public class FightManagers : MonoBehaviour
 
 	public void DamageGroup(int damage, int damage2, FightChar to)
 	{
-		Damage(damage, to, false);
 		List<FightChar> list;
 		if (to.IsPlayer)
 		{
@@ -474,8 +473,8 @@ public class FightManagers : MonoBehaviour
 
 		if (index - 1 >= 0 && index + 1 < list.Count)
 		{
-			Damage(damage2, list[index - 1], false);
-			Damage(damage2, list[index + 1], true);
+			Damage(damage2, list[index - 1], true);
+			Damage(damage2, list[index + 1], false);
 		}
 		else if (index - 1 >= 0)
 		{
@@ -489,6 +488,7 @@ public class FightManagers : MonoBehaviour
 		{
 			ActionMg.PrintLog($"{to.LogName}의 양옆에 아무도 없어 피해를 주지 못하였습니다.", true);
 		}
+		Damage(damage, to, false);
 	}
 
 	public void DamageAll(int damage, bool isPlayer)
